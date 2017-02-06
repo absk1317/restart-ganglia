@@ -1,2 +1,5 @@
-# restart-ganglia
+# Restart Ganglia
 A short playbook for restarting all ganglia monitored nodes.
+
+Rename the nodes.example file to nodes and add your monitored nodes in it like 
+the given example.
