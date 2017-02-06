@@ -1,0 +1,7 @@
+---
+- hosts: nodes
+  tasks:
+    - name: Restart ganglia monitor on nodes.
+      service: name=ganglia-monitor state=restarted
+      become: yes
+      become_method: sudo
